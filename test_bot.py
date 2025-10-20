@@ -1,5 +1,8 @@
 import discord
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ボットのシークレットアクセストークン
 TOKEN = os.getenv("DISCORD_TOKEN")
