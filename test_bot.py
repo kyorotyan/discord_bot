@@ -2,6 +2,7 @@ import discord
 import os
 from dotenv import load_dotenv
 
+# .envを読み込む
 load_dotenv()
 
 # ボットのシークレットアクセストークン
